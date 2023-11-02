@@ -54,7 +54,7 @@ export const Home = () => {
                 <p className="font-normal">Mumbai</p>
               </div>
 
-              <div className="flex flex-col justify-center items-center  lg:hidden">
+              <div className="flex flex-col justify-center items-center lmd:hidden">
                 <div className="flex justify-center items-center bg-lightBlue rounded-[50%] w-20 h-20">
                   <img src={delhi} alt="delhi" className="w-7/12 h-7/12" />
                 </div>

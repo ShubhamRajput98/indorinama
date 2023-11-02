@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className="border-b">
       <div className="container m-auto px-20 lg:px-10 md:px-4">
-        <div className="flex flex-wrap justify-between gap-3 py-5">
+        <div className="flex flex-wrap justify-between gap-3 py-5 lg:flex-col lg:items-center">
           {/* ========== logo start ========== */}
           <div className="logo">
             <h3 className="text-black text-[28px] leading-8 font-semibold">
@@ -27,7 +27,7 @@ export const Header = () => {
             <input
               type="text"
               placeholder="Search"
-              className="w-[407px] h-full border border-lightGray outline-none rounded-md bg-lightGray px-10 py-1 sm:w-full"
+              className="w-[407px] h-full border border-lightGray outline-none rounded-md bg-lightGray px-10 py-1 sm:w-full lg:py-3"
             />
 
             <div className="absolute right-3 top-[50%] translate-y-[-50%]">
