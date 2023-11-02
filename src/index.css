@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #F5F5F5;
+}
+
+.carousel .control-arrow {
+    background: transparent !important;
+}
+
+
+.dZkckO::before,.bBfHpH::before{
+    display: none !important;
+}
+
+
+.bBfHpH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black !important;
+    position: absolute;
+    top: calc(50% - 17.5px);
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #0009;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 10px;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    left: 5px;
+    right: initial;
+}
+
+.dZkckO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black !important;
+    position: absolute;
+    top: calc(50% - 17.5px);
+    height: 35px;
+    width: 35px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #0009;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 10px;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    left: initial;
+    right: 5px;
+}
+
+.gYgxKc{
+    padding-left: 0 !important;
+}
+
