@@ -38,7 +38,7 @@ module.exports = {
         white: "#FFF",
         black: "#0D0D0D",
         lightGray: "#ADADAD",
-        semiLightGray: "gba(13, 13, 13, 0.22)",
+        semiLightGray: "rgba(13, 13, 13, 0.22)",
         blue: "rgba(13, 13, 13, 0.20)",
         lightPurpal: "#B3B3B3",
       },

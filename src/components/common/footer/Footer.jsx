@@ -17,8 +17,8 @@ export const Footer = () => {
         <div className="flex flex-wrap pt-6 pb-16 md:justify-center">
           {/* ======= first column start */}
           <div className="column w-3/12 md:w-1/2 sm:w-1/2 sm:mb-4">
-            <div className="flex flex-col justify-center items-center h-full w-full">
-              <div className=" px-0 pt-16 md:px-4">
+            <div className="flex flex-col justify-center items-center h-full w-full sm:justify-start">
+              <div className=" px-0 pt-16 md:px-4 sm:pt-0">
                 <div className="paragraph">
                   <p className="text-white leading-7 tracking-[0.39px]">
                     Lorem Ipsum is simply dummy text of the and typesetting
